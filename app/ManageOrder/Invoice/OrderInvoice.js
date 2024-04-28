@@ -112,14 +112,14 @@ export default function OrderInvoice({ order }) {
                     <tr class="border-b border-gray-200">
                       <td class="max-w-0 py-5 pl-4 pr-3 text-sm sm:pl-0">
                         <div class="font-medium text-gray-900">{i.product}</div>
-                        <div class="mt-1 truncate text-gray-500">
+                        {/* <div class="mt-1 truncate text-gray-500">
                           {i?.selWght}
                           {i?.form === "solid" ? "kg" : "Ltr"}
-                        </div>
+                        </div> */}
                       </td>
                       <td class="hidden px-3 py-5 text-right text-sm text-gray-500 sm:table-cell">
                         {i?.selWght}
-                        {i?.form === "solid" ? "kg" : "Ltr"} / {i?.qnt}
+                        {/* {i?.form === "solid" ? "kg" : "Ltr"} / {i?.qnt} */}
                       </td>
                       <td class="hidden px-3 py-5 text-right text-sm text-gray-500 sm:table-cell">
                         ₹{i?.selPrice}
