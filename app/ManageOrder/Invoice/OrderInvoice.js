@@ -17,14 +17,15 @@ export default function OrderInvoice({ order }) {
         <div class="grid grid-cols-2 items-center">
           <div>
             {/* <!--  Company logo  --> */}
-            <Image src={logo} width={0} height={0} className="w-24" />
+            {/* <Image src={logo} width={0} height={0} className="w-24" /> */}
+            Sporto
           </div>
 
           <div class="text-right">
-            <p>Smart Soil Booster Technology.Pvt.Ltd.</p>
-            <p class="text-gray-500 text-sm">soilbooster717@gmail.com</p>
+            <p>Sporto.Pvt.Ltd.</p>
+            <p class="text-gray-500 text-sm">sporto@gmail.com</p>
             <p class="text-gray-500 text-sm mt-1">
-              +91-9822688926/+91-9730866263
+              +91-9022576744/+91-9156047792
             </p>
           </div>
         </div>
